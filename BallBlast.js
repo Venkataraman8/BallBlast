@@ -332,10 +332,10 @@ function updateGameArea()
 		var x1 = Math.floor( Math.random() * 2 ) * GameArea.canvas.width;
 		var rad = 20 + Math.floor( Math.random() * 30 );
 			if(x1==0)
-				speed=2;
+				speed=3;
 			else
-				speed=-2;
-		myRocks.push(new Rocks(x1,300,speed,2,rad,"blue"));
+				speed=-3;
+		myRocks.push(new Rocks(x1,300,speed,0,rad,"blue"));
 		
 		if(rate>200)
 		rate-=30;
