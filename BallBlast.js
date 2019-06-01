@@ -174,7 +174,7 @@ function Rocks(x,y,speedX,speedY,radius,color)
 	
 	this.update=function()
 	{
-		text=(this.radius-19) *2;
+		text= ((this.radius-19) *2) - 1;
 		ctx=GameArea.context;
 		ctx.fillStyle=color;
 		ctx.beginPath();
