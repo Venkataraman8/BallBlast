@@ -509,7 +509,7 @@ function updateGameArea()
 	
 	GameArea.frameNo+=1;
 	myHighScore.update(total);
-	power=Math.floor(total/100)+1;
+	power=Math.floor(total/200)+1;
 	
 	if(bulletframe>2)
 	bulletframe= 5 - Math.floor(total/100);
