@@ -180,15 +180,15 @@ GameArea=
 		
 		canvas.addEventListener("click" , function(event){
 		if(event.x < myButton.x1 + 50 && event.x > myButton.x1 && 
-		    event.y < myButton.y1 && event.y > myButton.y1 - 50)
+		    event.y < myButton.y1 + 50 && event.y > myButton.y1 - 50)
 		   pauseGame();
 		
 		else if(event.x < myButton.x2 + 50 && event.x > myButton.x2 && 
-		    event.y < myButton.y2 && event.y > myButton.y2 - 50)
+		    event.y < myButton.y2 + 50 && event.y > myButton.y2 - 50)
 		   resumeGame();   
 		   
 		else if(event.x < myButton.x3 + 50 && event.x > myButton.x3 && 
-		           event.y < myButton.y3  && event.y > myButton.y3 - 50)
+		           event.y < myButton.y3 +50  && event.y > myButton.y3 - 50)
 		          restartGame();
 		});
 		
