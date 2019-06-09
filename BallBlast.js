@@ -201,7 +201,7 @@ GameArea=
 	
 	 resume: function()
 	 {
-		 interval=setInterval(updateGameArea,20);
+		 interval=requestAnimationFrame(updateGameArea);
 	 },
 	
 	stop: function()
