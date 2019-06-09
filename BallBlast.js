@@ -127,9 +127,9 @@ function instructions()
 
 function startGame()
 {	
-		mySound1=new Sound("rock1.mp3");
-		mySound2=new Sound("canon.mp3");
-		mySound3=new Sound("bullet.mp3");
+		mySound1=new Sound("Assets/rock1.mp3");
+		mySound2=new Sound("Assets/canon.mp3");
+		mySound3=new Sound("Assets/bullet.mp3");
 	context=canvas.getContext("2d");
 	context.clearRect(0,0,canvas.width,canvas.height);
 	image=document.getElementById("back");
