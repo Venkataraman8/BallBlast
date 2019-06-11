@@ -137,7 +137,7 @@ function startGame()
 	GameArea.start();
 	myBullets=[];
 	myRocks=[];
-	rate=800;
+	rate=1000;
 	total=0;
 	bulletframe=5;
 	power=1;
@@ -538,7 +538,7 @@ function updateGameArea()
 		myRocks.push(new Rocks(x1,300,speed,0,rad,"blue"));
 		
 		if(rate>200)
-		rate-=50;
+		rate-=20;
 		
 	}
 
